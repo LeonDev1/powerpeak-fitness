@@ -1,0 +1,14 @@
+#courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.courses-discriptions {
+  text-align: center;
+  line-height: 3;
+}
+
+.courses-discriptions p {
+  font-weight: 400;
+}

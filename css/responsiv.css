@@ -1,0 +1,80 @@
+@media (max-width: 600px) {
+  * {
+    text-align: center;
+  }
+
+  .galary {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  a:hover {
+    color: unset;
+  }
+
+  a::after {
+    background: transparent;
+  }
+
+  .header-container h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .header-container p {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    width: 60%;
+    padding: 10px;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .about-us-textblock-1 {
+    line-height: 1.5;
+  }
+
+  .about-us-textblock-1 br {
+    display: unset;
+  }
+
+  .courses-discriptions {
+    margin-top: 2em;
+  }
+
+  .courses-discriptions p {
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+
+  .cards {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    justify-content: unset;
+  }
+
+  .card {
+    min-width: 225px;
+  }
+
+  .card:nth-child(1) {
+    margin-left: 20px;
+  }
+
+  .card:last-child {
+    margin-right: 20px;
+  }
+}

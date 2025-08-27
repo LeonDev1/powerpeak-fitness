@@ -1,0 +1,30 @@
+#about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.about-us-textblock-1 {
+  margin-top: 5dvh;
+
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about-us-textblock-1 br {
+  display: unset;
+}
+
+.about-us-textblock-2 {
+  margin-top: 10dvh;
+
+  text-align: center;
+  line-height: 2;
+}
+
+.about-us-cta-text {
+  margin-top: 4dvh;
+
+  font-weight: 410;
+}
