@@ -170,7 +170,7 @@ a:hover::after {
   background-color: hsl(from var(--text-color) h s l / 0.5);
 }
 
-/* img,
+img,
 .card,
 .navbar,
 .comment-slider {
@@ -206,4 +206,4 @@ p {
   to {
     opacity: 1;
   }
-} */
+}
