@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/courses.css" />
     <link rel="stylesheet" href="css/memberships.css" />
     <link rel="stylesheet" href="css/customer-feedback.css" />
+    <link rel="stylesheet" href="css/contact.css" />
 
     <link rel="stylesheet" href="css/responsiv.css" />
   </head>
@@ -23,7 +24,9 @@
         </h1>
         <h2>Dein Premium-Gym in Berlin</h2>
       </div>
-      <button class="hero-cta">Kostenloses Probetraining</button>
+      <a href="#contact" class="btn-a">
+        <button class="hero-cta">Kostenloses Probetraining</button>
+      </a>
       <p id="scroll-indicator" class="small-text">Scroll</p>
     </section>
 
@@ -60,12 +63,14 @@
         <p>
           <b>Modernste Ausstattung</b><br />
           <b>Beginner:innen & Profis willkommen</b><br />
-          <b>keine Vertragsbindung</b>>
+          <b>keine Vertragsbindung</b>
         </p>
       </div>
 
       <p class="about-us-cta-text">Starte jetzt durch</p>
-      <button>Kostenloses Probetraining</button>
+      <a href="#contact" class="btn-a"
+        ><button>Kostenloses Probetraining</button></a
+      >
     </section>
 
     <section id="courses">
@@ -189,7 +194,7 @@
               </p>
             </div>
           </div>
-          <!-- ~ -->
+          <!-- ~ -->,
           <div class="item smooth-shadow" style="--position: 3">
             <div class="content">
               <p><b>Endlich kein Gym-Bro-Territorium mehr!</b></p>
@@ -259,59 +264,27 @@
         </div>
       </div>
       <div class="seperation"></div>
-      <p
-        style="
-          font-weight: 500;
-          text-align: center;
-          margin: 5dvh 8dvh 5dvh 8dvh;
-        "
-      >
-        Dein Feedback ist uns wichtig! Wir prüfen jede Rezension und setzen<br />
-        um, was machbar ist – bitte habt Verständnis, dass manches<br />Zeit
+      <p class="customer-feedback-textblock">
+        Dein Feedback ist uns wichtig! Wir prüfen jede Rezension und setzen
+        <br />
+        um, was machbar ist – bitte habt Verständnis, dass manches <br />Zeit
         braucht.
       </p>
       <div class="seperation"></div>
-
-      <div class="galary">
-        <img
-          class="smooth-shadow"
-          src="assets/img/image-1.jpg"
-          alt=""
-          style="grid-area: image-1"
-        />
-        <img
-          class="smooth-shadow"
-          src="assets/img/image-2.jpg"
-          alt=""
-          style="grid-area: image-2"
-        />
-        <img
-          class="smooth-shadow"
-          src="assets/img/image-3.jpg"
-          alt=""
-          style="grid-area: image-3"
-        />
-        <img
-          class="smooth-shadow"
-          src="assets/img/image-4.jpg"
-          alt=""
-          style="grid-area: image-4"
-        />
-        <img
-          class="smooth-shadow"
-          src="assets/img/image-5.jpg"
-          alt=""
-          style="grid-area: image-5"
-        />
-        <img
-          class="smooth-shadow"
-          src="assets/img/image-6.jpg"
-          alt=""
-          style="grid-area: image-6"
-        />
-      </div>
     </section>
     <!-- ! -->
-    <section id="contact"></section>
+    <section id="contact">
+      <p>Das könnte deine Website sein</p>
+      <p class="small-text">Diese Website dient nur zu Übungszwecken.</p>
+      <br />
+      <p>
+        Hole dir jetzt deine professionelle Website zu einem günstigen Preis
+      </p>
+      <p><a href="https://leondev1.github.io/portfolio/">Leondev</a></p>
+
+      <p class="small-text" id="watermark"></p>
+    </section>
   </body>
 </html>
+
+<script src="app.js"></script>

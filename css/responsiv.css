@@ -3,10 +3,6 @@
     text-align: center;
   }
 
-  .galary {
-    display: none;
-  }
-
   h1 {
     font-size: 50px;
   }
@@ -62,12 +58,14 @@
   .cards {
     flex-wrap: nowrap;
     overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 
     justify-content: unset;
   }
 
   .card {
     min-width: 225px;
+    scroll-snap-align: center;
   }
 
   .card:nth-child(1) {
@@ -76,5 +74,21 @@
 
   .card:last-child {
     margin-right: 20px;
+  }
+
+  .customer-feedback-textblock br {
+    display: none;
+  }
+
+  .galary {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 0;
+
+    width: 100%;
+    max-width: 700px;
+    margin-top: 9dvh;
+    overflow-x: hidden;
   }
 }

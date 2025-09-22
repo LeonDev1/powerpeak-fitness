@@ -170,6 +170,10 @@ a:hover::after {
   background-color: hsl(from var(--text-color) h s l / 0.5);
 }
 
+.btn-a::after {
+  display: none;
+}
+
 img,
 .card,
 .navbar,
@@ -185,7 +189,7 @@ p {
   opacity: 0;
   animation: fade-in 1s ease both;
   animation-timeline: view();
-  animation-range: entry 0 cover 40vh;
+  animation-range: entry 0 cover 40dvh;
 }
 
 @keyframes pop-in {
